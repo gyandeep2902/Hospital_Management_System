@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window</class>
+ <widget class="QMainWindow" name="Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hospital Management System</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_main">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="QWidget" name="pageMenu">
+       <layout class="QVBoxLayout" name="layoutMenu">
+        <item>
+         <widget class="QLabel" name="label_header">
+          <property name="text">
+           <string>Hospital Management System</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size: 30px; color: rgb(175, 37, 255); background-color: rgb(235, 196, 255);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="submitButtonMenu">
+          <property name="text">
+           <string>Submit Patient Details</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="findButtonMenu">
+          <property name="text">
+           <string>Find Patient</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+
+      <widget class="QWidget" name="pageSubmit">
+       <layout class="QVBoxLayout" name="layoutSubmitPage">
+        <item>
+         <widget class="QLabel" name="label_header_submit">
+          <property name="text">
+           <string>Hospital Management System</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size: 24px; color: rgb(175, 37, 255); background-color: rgb(235, 196, 255);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QFormLayout" name="formLayoutSubmit">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_id">
+            <property name="text">
+             <string>Patient ID</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEdit_id"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_name">
+            <property name="text">
+             <string>Patient Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEdit_name"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_dob">
+            <property name="text">
+             <string>Date of Birth</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEdit_dob"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_admit">
+            <property name="text">
+             <string>Date Admitted</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <layout class="QHBoxLayout">
+            <item><widget class="QComboBox" name="dateAdmit_day"/></item>
+            <item><widget class="QComboBox" name="dateAdmit_month"/></item>
+            <item><widget class="QComboBox" name="dateAdmit_year"/></item>
+           </layout>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_release">
+            <property name="text">
+             <string>Date Released</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <layout class="QHBoxLayout">
+            <item><widget class="QComboBox" name="dateRelease_day"/></item>
+            <item><widget class="QComboBox" name="dateRelease_month"/></item>
+            <item><widget class="QComboBox" name="dateRelease_year"/></item>
+           </layout>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_doctor">
+            <property name="text">
+             <string>Doctor Seen</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lineEdit_doctor"/>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_blood">
+            <property name="text">
+             <string>Blood Group</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QComboBox" name="comboBox_blood"/>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="label_amount">
+            <property name="text">
+             <string>Amount Paid</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLineEdit" name="lineEdit_amount"/>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_method">
+            <property name="text">
+             <string>Payment Method</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QComboBox" name="comboBox_payment"/>
+          </item>
+          <item row="9" column="0">
+           <widget class="QLabel" name="label_transaction">
+            <property name="text">
+             <string>Transaction ID</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="1">
+           <widget class="QLineEdit" name="lineEdit_transaction"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="layoutSubmitButtons">
+          <item><widget class="QPushButton" name="backButtonSubmit"><property name="text"><string>Back</string></property></widget></item>
+          <item><widget class="QPushButton" name="submit_button"><property name="text"><string>Submit</string></property></widget></item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+
+      <widget class="QWidget" name="pageFind">
+       <layout class="QVBoxLayout" name="layoutFind">
+        <item>
+         <widget class="QLabel" name="label_header_find">
+          <property name="text">
+           <string>Hospital Management System</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-size: 24px; color: rgb(175, 37, 255); background-color: rgb(235, 196, 255);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="layoutFindTop">
+          <item><widget class="QPushButton" name="backButtonFind"><property name="text"><string>Back</string></property></widget></item>
+          <item><widget class="QLineEdit" name="lineEdit_find_id"><property name="placeholderText"><string>Patient ID</string></property></widget></item>
+          <item><widget class="QPushButton" name="find_button"><property name="text"><string>Find</string></property></widget></item>
+          <item><widget class="QPushButton" name="download_button"><property name="text"><string>Download CSV</string></property></widget></item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="result_label"><property name="wordWrap"><bool>true</bool></property></widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+</ui>

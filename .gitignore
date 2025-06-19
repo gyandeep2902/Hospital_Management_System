@@ -1,0 +1,62 @@
+*.user
+*.pro.user
+*.qmlproject.user
+
+build/
+debug/
+release/
+*/debug/
+*/release/
+
+build-*-Desktop_*
+
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+.cmake/
+
+*.VC.db
+*.VC.opendb
+*.vs/
+
+
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+
+*.o
+*.obj
+*.exe         # Windows executables
+*.dll         # Windows dynamic libraries
+*.lib         # Windows static libraries
+*.dylib       # macOS dynamic libraries
+*.so          # Linux shared libraries
+*.a           # Linux static libraries
+*.ilk
+*.pdb         # Program Database files (Windows debug info)
+*.moc         # Meta-Object Compiler output
+*.ui.h        # UI header files generated from .ui
+*.qrc.h       # Resource header files generated from .qrc
+moc_*.cpp     # Generated MOC files
+qrc_*.cpp     # Generated QRC files
+ui_*.h        # Generated UI files
+*.prl         # Qt private library files
+*.qmlc        # QML cache files
+
+
+.qt/
+.qtc/
+
+
+Thumbs.db      # Windows
+
+Hospital_Management_System_autogen/
+HospitalManagementSystem_autogen/
+Testing/
+patients.db
