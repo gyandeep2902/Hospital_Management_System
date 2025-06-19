@@ -68,9 +68,9 @@ _Message when patient is not found._
 
 _Exporting data to a csv file._
 
-![Downloaded csv Screenshot](images/Downloaded_csv_File.png)
+![Downloaded csv Screenshot](images/Downloaded_csv_file.png)
 
-_ Downloaded csv file viewed in excel._
+_Downloaded csv file viewed in excel._
 
 ## 💡 Usage
 Once the application is running:
