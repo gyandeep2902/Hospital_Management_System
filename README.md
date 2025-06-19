@@ -103,7 +103,7 @@ Contributions are welcome! If you find bugs, have feature suggestions, or want t
 This project is licensed under the [**MIT License**](LICENSE.md). You can find the full license text in the `LICENSE.md` file in this repository.
 
 ## 📧 Contact
-* **Gyandeep** (GitHub: [gyandeep2902](https://github.com/gyandeep2902))
+* **Gyan Deep** (GitHub: [gyandeep2902](https://github.com/gyandeep2902))
 * Project Link: [https://github.com/gyandeep2902/Hospital_Management_System](https://github.com/gyandeep2902/Hospital_Management_System)
 
 ## 🙏 Acknowledgements
