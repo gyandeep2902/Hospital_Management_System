@@ -45,25 +45,32 @@ To build and run this project, you will need:
 ## 📸 Screenshots
 
 ![Open Screen Screenshot](images/Opening_Screen.png)
-_Caption: The opening screen of the Hospital Management System._
+
+_The opening screen of the Hospital Management System._
 
 ![Submit Patient Information Screenshot](images/Save_Patient_Information_Screen.png)
-_Caption: The form for submitting new patient information._
+
+_The form for submitting new patient information._
 
 ![After Saving Information Screenshot](images/After_Saving_Info.png)
-_Caption: Patient information successfully saved._
+_Patient information successfully saved._
+
 
 ![Patient found Screenshot](images/Patient_Found_Screen.png)
-_Caption: Patient found message._
+
+_Patient found message._
 
 ![Submit Patient not found Screenshot](images/Patient_not_found_error.png)
-_Caption: Message when patient is not found._
+
+_Message when patient is not found._
 
 ![Export to csv Screenshot](images/Exporting_data_to_csv.png)
-_Caption: Exporting data to a csv file._
+
+_ Exporting data to a csv file._
 
 ![Downloaded csv Screenshot](images/Downloaded_CSV_File.png)
-_Caption: Downloaded csv file viewed in excel._
+
+_ Downloaded csv file viewed in excel._
 
 ## 💡 Usage
 Once the application is running:
