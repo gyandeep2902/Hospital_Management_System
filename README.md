@@ -53,6 +53,7 @@ _The opening screen of the Hospital Management System._
 _The form for submitting new patient information._
 
 ![After Saving Information Screenshot](images/After_Saving_Info.png)
+
 _Patient information successfully saved._
 
 
