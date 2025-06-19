@@ -66,9 +66,9 @@ _Message when patient is not found._
 
 ![Export to csv Screenshot](images/Exporting_data_to_csv.png)
 
-_ Exporting data to a csv file._
+_Exporting data to a csv file._
 
-![Downloaded csv Screenshot](images/Downloaded_CSV_File.png)
+![Downloaded csv Screenshot](images/Downloaded_csv_File.png)
 
 _ Downloaded csv file viewed in excel._
 
