@@ -7,7 +7,7 @@ It provides a simple graphical interface for submitting new patient details, sea
 ## ✨ Features
 * **Intuitive Graphical User Interface (GUI):** Built with Qt widgets for ease of use.
 * **Patient Data Management:**
-  * Allows submission of new patient records including like Patient ID (mandatory), Patient Name (mandatory), Date of Birth, Doctor Seen, Blood Group, Date Admitted , Amount Paid, Payment Method etc.
+  * Allows submission of new patient records including like Patient ID (mandatory), Patient Name (mandatory), Date of Birth, Doctor Seen, Blood Group, Date Admitted, Amount Paid, Payment Method etc.
   * Validates that Patient ID and Name are not empty upon submission.
 * **SQLite Database Integration:** All patient information is persistently stored in a local `patients.db` SQLite database file.
 * **Patient Search Functionality:** Quickly retrieve and display full details of a patient by entering their unique Patient ID.
@@ -97,10 +97,7 @@ Contributions are welcome! If you find bugs, have feature suggestions, or want t
 2.  Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name`
 3.  Make your changes and commit them with descriptive messages: `git commit -m 'Add new feature'`
 4.  Push your changes to your new branch: `git push origin feature/your-feature-name`
-5.  Open a Pull Request to the `master` branch of this repository.
-
-## 📄 License
-This project is licensed under the [**MIT License**](LICENSE.md). You can find the full license text in the `LICENSE.md` file in this repository.
+5.  Open a Pull Request to the `main` branch of this repository.
 
 ## 📧 Contact
 * **Gyan Deep** (GitHub: [gyandeep2902](https://github.com/gyandeep2902))
